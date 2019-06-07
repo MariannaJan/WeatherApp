@@ -20,11 +20,11 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.text.format.DateUtils;
 
-import com.example.android.sunshine.data.SunshinePreferences;
-import com.example.android.sunshine.data.WeatherContract;
-import com.example.android.sunshine.utilities.NetworkUtils;
-import com.example.android.sunshine.utilities.NotificationUtils;
-import com.example.android.sunshine.utilities.OpenWeatherJsonUtils;
+import com.example.weatherapp.data.SunshinePreferences;
+import com.example.weatherapp.data.WeatherContract;
+import com.example.weatherapp.utilities.NetworkUtils;
+import com.example.weatherapp.utilities.NotificationUtils;
+import com.example.weatherapp.utilities.OpenWeatherJsonUtils;
 
 import java.net.URL;
 
