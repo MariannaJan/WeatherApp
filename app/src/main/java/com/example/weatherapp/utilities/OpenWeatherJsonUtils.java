@@ -18,8 +18,6 @@ package com.example.weatherapp.utilities;
 import android.content.ContentValues;
 import android.content.Context;
 
-import com.example.android.sunshine.data.SunshinePreferences;
-import com.example.android.sunshine.data.WeatherContract;
 import com.example.weatherapp.data.SunshinePreferences;
 import com.example.weatherapp.data.WeatherContract;
 

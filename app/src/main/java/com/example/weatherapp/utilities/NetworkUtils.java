@@ -19,7 +19,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.util.Log;
 
-import com.example.android.sunshine.data.SunshinePreferences;
+import com.example.weatherapp.data.SunshinePreferences;
 
 import java.io.IOException;
 import java.io.InputStream;

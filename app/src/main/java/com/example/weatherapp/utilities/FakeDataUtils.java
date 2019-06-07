@@ -3,13 +3,13 @@ package com.example.weatherapp.utilities;
 import android.content.ContentValues;
 import android.content.Context;
 
-import com.example.android.sunshine.data.WeatherContract;
+import com.example.weatherapp.data.WeatherContract;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import static com.example.android.sunshine.data.WeatherContract.WeatherEntry;
+import static com.example.weatherapp.data.WeatherContract.WeatherEntry;
 
 public class FakeDataUtils {
 

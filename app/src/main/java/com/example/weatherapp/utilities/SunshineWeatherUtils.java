@@ -18,8 +18,8 @@ package com.example.weatherapp.utilities;
 import android.content.Context;
 import android.util.Log;
 
-import com.example.android.sunshine.R;
-import com.example.android.sunshine.data.SunshinePreferences;
+import com.example.weatherapp.R;
+import com.example.weatherapp.data.SunshinePreferences;
 
 /**
  * Contains useful utilities for a weather app, such as conversion between Celsius and Fahrenheit,

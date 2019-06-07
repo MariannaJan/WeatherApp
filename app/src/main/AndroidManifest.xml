@@ -14,10 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity
-            android:name=".MainView"
-            android:label="@string/title_activity_main_view"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <!--<activity-->
+            <!--android:name=".MainView"-->
+            <!--android:label="@string/title_activity_main_view"-->
+            <!--android:theme="@style/AppTheme.NoActionBar" />-->
 
 
     <!--The manifest entry for our MainActivity. Each Activity requires a manifest entry-->
