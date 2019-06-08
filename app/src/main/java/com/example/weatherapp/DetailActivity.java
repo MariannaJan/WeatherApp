@@ -2,6 +2,7 @@ package com.example.weatherapp;
 
 import android.content.Intent;
 import android.database.Cursor;
+import android.databinding.DataBindingUtil;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.LoaderManager;
@@ -14,6 +15,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.example.weatherapp.data.WeatherContract;
+import com.example.weatherapp.databinding.ActivityDetailBinding;
 import com.example.weatherapp.utilities.SunshineDateUtils;
 import com.example.weatherapp.utilities.SunshineWeatherUtils;
 
