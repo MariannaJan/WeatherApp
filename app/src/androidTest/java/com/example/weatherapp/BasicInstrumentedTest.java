@@ -7,6 +7,8 @@ import android.support.test.runner.AndroidJUnit4;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import static android.os.Build.VERSION.SDK_INT;
+import static android.os.Build.VERSION_CODES.GINGERBREAD;
 import static org.junit.Assert.*;
 
 /**
@@ -15,12 +17,19 @@ import static org.junit.Assert.*;
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 @RunWith(AndroidJUnit4.class)
-public class ExampleInstrumentedTest {
+public class BasicInstrumentedTest {
     @Test
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.example.weatherapp", appContext.getPackageName());
+    }
+
+    @Test
+    public void testAndroidVersionGreaterThanGingerbread() {
+        int currentAndroidVersion = SDK_INT;
+        int androidVersion = GINGERBREAD;
+        assertTrue(currentAndroidVersion > androidVersion);
     }
 }

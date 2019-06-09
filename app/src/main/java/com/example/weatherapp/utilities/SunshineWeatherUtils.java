@@ -22,7 +22,7 @@ public final class SunshineWeatherUtils {
      *
      * @return Temperature in degrees Fahrenheit (°F)
      */
-    private static double celsiusToFahrenheit(double temperatureInCelsius) {
+    public static double celsiusToFahrenheit(double temperatureInCelsius) {
         double temperatureInFahrenheit = (temperatureInCelsius * 1.8) + 32;
         return temperatureInFahrenheit;
     }
