@@ -4,6 +4,8 @@ import android.content.Context;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
 
+import com.example.weatherapp.utilities.SunshineWeatherUtils;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -31,5 +33,12 @@ public class BasicInstrumentedTest {
         int currentAndroidVersion = SDK_INT;
         int androidVersion = GINGERBREAD;
         assertTrue(currentAndroidVersion > androidVersion);
+    }
+
+    @Test
+    public void testFormatTemperature() {
+        Context context = InstrumentationRegistry.getTargetContext();
+        double temperatureInCelsius = 20.5;
+        assertEquals("69°", SunshineWeatherUtils.formatTemperature(context, temperatureInCelsius));
     }
 }

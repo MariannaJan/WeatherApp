@@ -90,10 +90,6 @@ public final class SunshineWeatherUtils {
             windSpeed = .621371192237334f * windSpeed;
         }
 
-        /*
-         * You know what's fun? Writing really long if/else statements with tons of possible
-         * conditions. Seriously, try it!
-         */
         String direction = "Unknown";
         if (degrees >= 337.5 || degrees < 22.5) {
             direction = "N";
